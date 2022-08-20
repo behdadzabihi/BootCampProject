@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
+import project.spring.bootcamp.Model.Dto.VehicleDTO;
+import project.spring.bootcamp.Model.Mapper.VehicleMapper;
+import project.spring.bootcamp.Model.Vehicle;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-08-19T05:03:16-0700",
-    comments = "version: 1.5.2.Final, compiler: javac, environment: Java 18.0.2 (Oracle Corporation)"
+    date = "2022-08-20T08:55:16+0430",
+    comments = "version: 1.5.2.Final, compiler: javac, environment: Java 17.0.1 (Oracle Corporation)"
 )
 @Component
 public class VehicleMapperImpl implements VehicleMapper {

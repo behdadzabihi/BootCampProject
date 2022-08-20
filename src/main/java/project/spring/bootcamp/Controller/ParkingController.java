@@ -1,10 +1,14 @@
-package project.spring.bootcamp.parking;
+package project.spring.bootcamp.Controller;
 
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import project.spring.bootcamp.Service.IParkingService;
+import project.spring.bootcamp.Model.Parking;
+import project.spring.bootcamp.Model.Dto.ParkingDTO;
+import project.spring.bootcamp.Model.Mapper.ParkingMapper;
 
 
 import java.util.List;

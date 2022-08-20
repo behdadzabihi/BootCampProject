@@ -1,4 +1,6 @@
-package project.spring.bootcamp.vehicle;
+package project.spring.bootcamp.Service;
+
+import project.spring.bootcamp.Model.Vehicle;
 
 import java.util.List;
 

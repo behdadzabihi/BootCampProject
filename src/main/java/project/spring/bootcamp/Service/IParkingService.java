@@ -1,6 +1,7 @@
-package project.spring.bootcamp.parking;
+package project.spring.bootcamp.Service;
 
-import java.util.LinkedList;
+import project.spring.bootcamp.Model.Parking;
+
 import java.util.List;
 
 public interface IParkingService {

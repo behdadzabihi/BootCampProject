@@ -1,6 +1,8 @@
-package project.spring.bootcamp.vehicle;
+package project.spring.bootcamp.Model.Mapper;
 
 import org.mapstruct.Mapper;
+import project.spring.bootcamp.Model.Dto.VehicleDTO;
+import project.spring.bootcamp.Model.Vehicle;
 
 import java.util.List;
 

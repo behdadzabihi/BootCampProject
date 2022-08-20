@@ -1,14 +1,17 @@
-package project.spring.bootcamp.vehicle;
+package project.spring.bootcamp.Service.Impl;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import project.spring.bootcamp.Model.Vehicle;
+import project.spring.bootcamp.Repository.VehicleRepository;
+import project.spring.bootcamp.Service.IVehicleService;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
 @AllArgsConstructor
-public class VehicleService implements IVehicleService{
+public class VehicleService implements IVehicleService {
 
     private VehicleRepository repository;
 

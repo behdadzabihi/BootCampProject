@@ -1,7 +1,8 @@
-package project.spring.bootcamp.vehicle;
+package project.spring.bootcamp.Model.Dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import project.spring.bootcamp.Model.Enum.Sort;
 
 @Data
 public class VehicleDTO {

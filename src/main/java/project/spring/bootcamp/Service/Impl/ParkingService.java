@@ -1,20 +1,21 @@
-package project.spring.bootcamp.parking;
+package project.spring.bootcamp.Service.Impl;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import project.spring.bootcamp.vehicle.IVehicleService;
-import project.spring.bootcamp.vehicle.Vehicle;
+import project.spring.bootcamp.Model.Parking;
+import project.spring.bootcamp.Repository.ParkingRepository;
+import project.spring.bootcamp.Model.Vehicle;
+import project.spring.bootcamp.Service.IParkingService;
+import project.spring.bootcamp.Service.IVehicleService;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
 @Service
 @AllArgsConstructor
-public class ParkingService implements IParkingService{
+public class ParkingService implements IParkingService {
 
     private ParkingRepository repository;
 

@@ -1,8 +1,7 @@
-package project.spring.bootcamp.parking;
+package project.spring.bootcamp.Model.Dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import project.spring.bootcamp.vehicle.VehicleDTO;
 
 import java.util.Date;
 

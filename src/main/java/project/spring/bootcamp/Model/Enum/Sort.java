@@ -1,4 +1,4 @@
-package project.spring.bootcamp.vehicle;
+package project.spring.bootcamp.Model.Enum;
 
 public enum Sort {
 

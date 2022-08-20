@@ -1,7 +1,8 @@
-package project.spring.bootcamp.parking;
+package project.spring.bootcamp.Repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
-import project.spring.bootcamp.vehicle.Vehicle;
+import project.spring.bootcamp.Model.Parking;
+import project.spring.bootcamp.Model.Vehicle;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package project.spring.bootcamp.vehicle;
+package project.spring.bootcamp.Model;
 
 import lombok.Data;
-import project.spring.bootcamp.parking.Parking;
+import project.spring.bootcamp.Model.Enum.Sort;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

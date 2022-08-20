@@ -5,9 +5,9 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import project.spring.bootcamp.vehicle.Sort;
-import project.spring.bootcamp.vehicle.Vehicle;
-import project.spring.bootcamp.vehicle.VehicleRepository;
+import project.spring.bootcamp.Model.Enum.Sort;
+import project.spring.bootcamp.Model.Vehicle;
+import project.spring.bootcamp.Repository.VehicleRepository;
 
 import java.util.List;
 
